@@ -4,3 +4,5 @@ const UserContext = React.createContext({
   notes: [],
   folders: []
 });
+
+export default UserContext;
