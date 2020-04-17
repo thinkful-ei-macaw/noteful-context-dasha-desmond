@@ -1,8 +1,8 @@
 import React from "react";
 
 const ApiContext = React.createContext({
-  notes: [],
-  folders: [],
+  note_table: [],
+  folder_table: [],
   addFolder:() => {},
   addNote:() => {},
   deleteNote: () => {}
