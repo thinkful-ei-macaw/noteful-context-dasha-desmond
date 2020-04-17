@@ -19,7 +19,7 @@ describe(`NotePageMain component`, () => {
       }
     }
     const context = {
-      notes: [{
+      note_table: [{
         id: `cbc787a0-ffaf-11e8-8eb2-f2801f1b9fd1`,
         name: `Dogs`,
         modified: `2019-01-03T00:00:00.000Z`,
@@ -44,7 +44,7 @@ describe(`NotePageMain component`, () => {
 
     const notesContextWithDifferentContent = [
       {
-        notes: [
+        note_table: [
           {
             id: `cbc787a0-ffaf-11e8-8eb2-f2801f1b9fd1`,
             content: "Content with n r.\n \rafter n r.",
@@ -52,7 +52,7 @@ describe(`NotePageMain component`, () => {
         ]
       },
       {
-        notes: [
+        note_table: [
           {
             id: `cbc787a0-ffaf-11e8-8eb2-f2801f1b9fd1`,
             content: "Content with n.\nafter."
